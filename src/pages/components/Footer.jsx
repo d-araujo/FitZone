@@ -33,7 +33,10 @@ function Footer() {
                 <a href="/sobre">Sobre</a>
               </li>
               <li>
-                <a href="/contato">Contato</a>
+                <a href="/produto">Produto</a>
+              </li>
+              <li>
+                <a href="/login">Login</a>
               </li>
             </ul>
           </div>
@@ -54,7 +57,7 @@ function Footer() {
         </div>
         <div className="footer-bottom">
           <p>
-            &copy; {new Date().getFullYear()} Luiz Natural. Todos os direitos
+            &copy; {new Date().getFullYear()} FitZone. Todos os direitos
             reservados.
           </p>
         </div>

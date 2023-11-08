@@ -4,18 +4,18 @@ import Card from "react-bootstrap/Card";
 function Produto() {
   return (
     <div>
-      <h1 className="d-flex justify-content-center">PRODUTOS RELEVANTES</h1>
+      <h1 className="d-flex justify-content-center">PRODUTOS EM DESTAQUE</h1>
       <br /> 
       <div className="d-flex p-2 justify-content-around">
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            src="https://cdn.awsli.com.br/600x700/2386/2386537/produto/153531456f137f93fd1.jpg"
+            src="https://img.irroba.com.br/fit-in/500x500/filters:format(webp):fill(fff):quality(80)/naturalf/catalog/wallball/16-03/24-03/30-03/esteira-curva-humanizada-bianca-ambientado.jpg"
           />
           <Card.Body>
-            <Card.Title>Aveia sem Casca</Card.Title>
+            <Card.Title>Esteira Curva Simulador de Corrida Consport</Card.Title>
             <Card.Text>
-              A aveia tem sido um alimento básico em muitas partes do mundo.
+              Esteria para simular corrida.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -24,13 +24,12 @@ function Produto() {
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            src="https://cdn.awsli.com.br/600x700/2386/2386537/produto/153550159b7e5b9700b.jpg"
+            src="https://img.irroba.com.br/fit-in/500x500/filters:format(webp):fill(transparent):quality(80)/naturalf/catalog/wallball/16-03/24-03/30-03/30-mob/suporte-banqueta-ambientado-2.png"
           />
           <Card.Body>
-            <Card.Title>Girassol Graudo</Card.Title>
+            <Card.Title>Suporte Cavalete regulável</Card.Title>
             <Card.Text>
-              O Girassol Graúdo é uma ração indicada para pássaros de grande
-              porte.
+              Suporte para academia.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>
@@ -39,13 +38,12 @@ function Produto() {
         <Card style={{ width: "18rem" }}>
           <Card.Img
             variant="top"
-            src="https://cdn.awsli.com.br/600x700/2386/2386537/produto/216293686a901d40e08.jpg"
+            src="https://img.irroba.com.br/fit-in/500x500/filters:format(webp):fill(fff):quality(80)/naturalf/catalog/descricao-nova/suporte-de-agachamento-livre-descricao-nova.jpg"
           />
           <Card.Body>
-            <Card.Title>Chocoball</Card.Title>
+            <Card.Title>Suporte para agachamento livre</Card.Title>
             <Card.Text>
-              O Chocoboll é um cereal rico em vitaminas, minerais e fibras que
-              proporciona mais saúde.
+              Suporte para realizar agachamento livre.
             </Card.Text>
             <Button variant="primary">Go somewhere</Button>
           </Card.Body>

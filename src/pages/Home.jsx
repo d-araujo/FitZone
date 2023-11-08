@@ -12,7 +12,8 @@ function Home() {
       <br />
       <Carrosel />
       <br />
-      <h1 className="d-flex justify-content-center">PRODUTOS RELEVANTES</h1>
+      <h1 className="d-flex justify-content-center">PRODUTOS EM DESTAQUE</h1>
+      <br />
       <Itens />
       <br />
       <Footer />
